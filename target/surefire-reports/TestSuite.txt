@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.43 sec <<< FAILURE! - in TestSuite
-launchGoogle(testcases.Sample)  Time elapsed: 16.278 sec  <<< FAILURE!
-java.lang.AssertionError: expected [Gooasdgle] but found [Google]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at testcases.Sample.launchGoogle(Sample.java:18)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.017 s - in TestSuite

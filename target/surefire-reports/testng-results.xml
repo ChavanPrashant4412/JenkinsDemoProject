@@ -1,61 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16339" started-at="2020-02-18T18:45:47Z" finished-at="2020-02-18T18:46:03Z">
+  <suite name="Suite" duration-ms="89" started-at="2021-05-29T14:09:53Z" finished-at="2021-05-29T14:09:53Z">
     <groups>
+      <group name="Sanity">
+        <method signature="DemoTest.luanchBrowser()[pri:0, instance:testcases.DemoTest@3cda1055]" name="luanchBrowser" class="testcases.DemoTest"/>
+        <method signature="DemoTest.printEnvironment()[pri:0, instance:testcases.DemoTest@3cda1055]" name="printEnvironment" class="testcases.DemoTest"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test name="Test" duration-ms="16339" started-at="2020-02-18T18:45:47Z" finished-at="2020-02-18T18:46:03Z">
-      <class name="testcases.Sample">
-        <test-method status="FAIL" signature="launchGoogle()[pri:0, instance:testcases.Sample@4ec6a292]" name="launchGoogle" duration-ms="16273" started-at="2020-02-19T00:15:47Z" finished-at="2020-02-19T00:16:03Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Gooasdgle] but found [Google]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Gooasdgle] but found [Google]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at testcases.Sample.launchGoogle(Sample.java:18)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test name="Test" duration-ms="89" started-at="2021-05-29T14:09:53Z" finished-at="2021-05-29T14:09:53Z">
+      <class name="testcases.DemoTest">
+        <test-method status="PASS" signature="intializeDataProperties()[pri:0, instance:testcases.DemoTest@3cda1055]" name="intializeDataProperties" is-config="true" duration-ms="57" started-at="2021-05-29T19:39:53Z" finished-at="2021-05-29T19:39:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchGoogle -->
-      </class> <!-- testcases.Sample -->
+        </test-method> <!-- intializeDataProperties -->
+        <test-method status="PASS" signature="luanchBrowser()[pri:0, instance:testcases.DemoTest@3cda1055]" name="luanchBrowser" duration-ms="4" started-at="2021-05-29T19:39:53Z" finished-at="2021-05-29T19:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchBrowser -->
+        <test-method status="PASS" signature="printEnvironment()[pri:0, instance:testcases.DemoTest@3cda1055]" name="printEnvironment" duration-ms="2" started-at="2021-05-29T19:39:53Z" finished-at="2021-05-29T19:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printEnvironment -->
+      </class> <!-- testcases.DemoTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

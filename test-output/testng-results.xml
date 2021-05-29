@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5827" started-at="2020-02-18T16:38:26Z" finished-at="2020-02-18T16:38:32Z">
+  <suite name="Default suite" duration-ms="119" started-at="2021-05-29T14:04:56Z" finished-at="2021-05-29T14:04:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5827" started-at="2020-02-18T16:38:26Z" finished-at="2020-02-18T16:38:32Z">
-      <class name="testcases.Sample">
-        <test-method status="PASS" signature="launchGoogle()[pri:0, instance:testcases.Sample@28feb3fa]" name="launchGoogle" duration-ms="5796" started-at="2020-02-18T22:08:26Z" finished-at="2020-02-18T22:08:32Z">
+    <test name="Default test" duration-ms="119" started-at="2021-05-29T14:04:56Z" finished-at="2021-05-29T14:04:56Z">
+      <class name="com.deskera.basePage.BasePage">
+        <test-method status="PASS" signature="intializeDataProperties()[pri:0, instance:com.deskera.basePage.BasePage@548a9f61]" name="intializeDataProperties" duration-ms="36" started-at="2021-05-29T19:34:56Z" finished-at="2021-05-29T19:34:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchGoogle -->
-      </class> <!-- testcases.Sample -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- intializeDataProperties -->
+      </class> <!-- com.deskera.basePage.BasePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

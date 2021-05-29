@@ -2,12 +2,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <include name="Sanity"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testcases.Sample">
+      <class name="testcases.DemoTest">
         <methods>
-          <include name="launchGoogle"/>
+          <include name="printEnvironment"/>
+          <include name="intializeDataProperties"/>
         </methods>
-      </class> <!-- testcases.Sample -->
+      </class> <!-- testcases.DemoTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
